@@ -1,9 +1,11 @@
 [
   {
+    "remote": "lineage",
     "repository": "android_kernel_xiaomi_sm8350",
     "target_path": "kernel/xiaomi/sm8350"
   },
   {
+    "remote": "lineage",
     "repository": "android_hardware_xiaomi",
     "target_path": "hardware/xiaomi"
   }
