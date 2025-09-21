@@ -323,7 +323,7 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/power/config/lahaina/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
 # PowerShare
-$(call soong_config_set,lmodroid_powershare,powershare_path,/sys/class/qcom-battery/reverse_chg_mode)
+$(call soong_config_set,lineage_powershare,powershare_path,/sys/class/qcom-battery/reverse_chg_mode)
 
 # QTI
 PRODUCT_COPY_FILES += \
